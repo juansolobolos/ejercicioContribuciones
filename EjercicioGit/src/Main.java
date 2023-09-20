@@ -6,7 +6,8 @@ public class Main {
         double precio;
         System.out.print("Introduzca un precio para añadir el IVA: ");
         precio = scan.nextDouble();
-        precio = precio * 1.21;
+        double iva = 2.1;
+        precio = precio * iva;
         System.out.println("El precio completo es " + precio);
     }
 }
